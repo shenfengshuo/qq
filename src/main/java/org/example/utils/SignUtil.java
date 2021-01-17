@@ -1,5 +1,7 @@
 package org.example.utils;
 
+import org.apache.commons.codec.binary.Base64;
+
 import java.security.KeyFactory;
 import java.security.MessageDigest;
 import java.security.PrivateKey;
@@ -12,13 +14,13 @@ public class SignUtil {
 		String sign = null;
 		try {
 			PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(
-					org.apache.commons.net.util.Base64.decodeBase64(privateKey));
+					Base64.decodeBase64(privateKey));
 			KeyFactory keyf = KeyFactory.getInstance("RSA");
 			PrivateKey priKey = keyf.generatePrivate(keySpec);
 			Signature signature = Signature.getInstance("MD5withRSA");
 			signature.initSign(priKey);
 			signature.update(content.getBytes("UTF-8"));
-			sign = org.apache.commons.net.util.Base64.encodeBase64URLSafeString(signature.sign()).trim();
+			sign = Base64.encodeBase64URLSafeString(signature.sign()).trim();
 		} catch (Exception ex) {
 			throw new RuntimeException(ex);
 		}
@@ -29,12 +31,12 @@ public class SignUtil {
 		String sign = null;
 		try {
 			PKCS8EncodedKeySpec priKeySpec = new PKCS8EncodedKeySpec(
-					org.apache.commons.net.util.Base64.decodeBase64(key));
+					Base64.decodeBase64(key));
 			KeyFactory keyFactory = KeyFactory.getInstance("RSA");
 			Signature signature = Signature.getInstance("SHA1WithRSA");
 			signature.initSign(keyFactory.generatePrivate(priKeySpec));
 			signature.update(content.getBytes("UTF-8"));
-			sign = org.apache.commons.net.util.Base64.encodeBase64URLSafeString(signature.sign()).trim();
+			sign = Base64.encodeBase64URLSafeString(signature.sign()).trim();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

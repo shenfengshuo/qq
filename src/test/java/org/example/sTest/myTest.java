@@ -2,6 +2,7 @@ package org.example.sTest;
 
 
 import org.apache.http.HttpResponse;
+import org.apache.http.util.EntityUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -61,7 +62,7 @@ public class myTest {
 	    	HttpResponse response = HttpUtils.doGet(host, path, method, headers, querys);
 	    	System.out.println("111:  " + response.toString());
 	    	//获取response的body
-	    	//System.out.println(EntityUtils.toString(response.getEntity(),"utf-8"));
+	    	System.out.println(EntityUtils.toString(response.getEntity(),"utf-8"));
 	    } catch (Exception e) {
 	    	e.printStackTrace();
 	    }

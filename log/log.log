@@ -1,0 +1,858 @@
+[INFO][2021/01/17 02:38:04 979] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:38:08 887] 
+java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73)
+	at org.example.utils.httpClient.SendRequest.preparePostRequest(SendRequest.java:123)
+	at org.example.utils.httpClient.SendRequest.doRequest(SendRequest.java:75)
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:29)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:116)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 02:39:42 144] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:39:44 695] url:  null
+[INFO][2021/01/17 02:39:44 709] 
+java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73)
+	at org.example.utils.httpClient.SendRequest.preparePostRequest(SendRequest.java:124)
+	at org.example.utils.httpClient.SendRequest.doRequest(SendRequest.java:75)
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:29)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:116)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 02:42:57 546] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:42:58 723] request.getRealUrl():  null
+[INFO][2021/01/17 02:42:58 724] url:  null
+[INFO][2021/01/17 02:42:58 742] 
+java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73)
+	at org.example.utils.httpClient.SendRequest.preparePostRequest(SendRequest.java:125)
+	at org.example.utils.httpClient.SendRequest.doRequest(SendRequest.java:76)
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:29)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:116)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 02:46:05 220] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:46:05 261] request.getBasicUrl()111http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:46:05 262] request.getRealUrl()111null
+[INFO][2021/01/17 02:46:07 646] request.getRealUrl():  null
+[INFO][2021/01/17 02:46:07 659] url:  null
+[INFO][2021/01/17 02:46:07 670] 
+java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73)
+	at org.example.utils.httpClient.SendRequest.preparePostRequest(SendRequest.java:125)
+	at org.example.utils.httpClient.SendRequest.doRequest(SendRequest.java:76)
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:116)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 02:49:35 402] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:49:35 475] request.getBasicUrl()111http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:49:35 476] request.getRealUrl()111null
+[INFO][2021/01/17 02:49:37 3 ] request.getRealUrl():  null
+[INFO][2021/01/17 02:49:37 4 ] url:  null
+[INFO][2021/01/17 02:49:37 14] 
+java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73)
+	at org.example.utils.httpClient.SendRequest.preparePostRequest(SendRequest.java:125)
+	at org.example.utils.httpClient.SendRequest.doRequest(SendRequest.java:76)
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:119)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 02:50:31 540] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:50:31 615] request.getBasicUrl()111http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:50:31 619] request.getRealUrl()111http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:50:32 944] request.getRealUrl():  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:50:32 945] url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:50:33 51] execute requesthttp://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 02:50:33 818] exe url error
+[INFO][2021/01/17 02:50:33 822] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:36)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:119)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:06:29 219] postUrl: http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:06:29 313] request.getBasicUrl()111 http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:06:29 313] request.getRealUrl()111 http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:06:30 732] request.getRealUrl():  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:06:30 732] url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:06:30 810] execute requesthttp://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:06:31 325] exe url error
+[INFO][2021/01/17 11:06:31 325] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:36)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:119)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:11:19 177] url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:11:19 380] execute requesthttp://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:11:19 848] exe url error
+[INFO][2021/01/17 11:11:19 848] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:33:35 819] request.getURI():  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:33:35 834] request.getAllHeaders():  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 11:33:35 850] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:33:36 209] exe url error
+[INFO][2021/01/17 11:33:36 209] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:40:06 942] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:40:07 426] exe url error
+[INFO][2021/01/17 11:40:07 426] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:48:47 79] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:48:47 79] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 11:48:47 79] execute request:  POST
+[INFO][2021/01/17 11:48:47 79] execute request:  HTTP/1.1
+[INFO][2021/01/17 11:48:47 110] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 11:48:47 110] execute request:  [parameters={}]
+[INFO][2021/01/17 11:48:47 703] response.getEntity():  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 11:48:47 703] exe url error
+[INFO][2021/01/17 11:48:47 703] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:53:15 181] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:53:15 181] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 11:53:15 181] execute request:  POST
+[INFO][2021/01/17 11:53:15 181] execute request:  HTTP/1.1
+[INFO][2021/01/17 11:53:15 212] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 11:53:15 227] execute request:  [parameters={}]
+[INFO][2021/01/17 11:53:15 711] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 11:53:15 711] exe url error
+[INFO][2021/01/17 11:53:15 727] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 11:55:05 910] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 11:55:05 910] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 11:55:05 910] execute request:  POST
+[INFO][2021/01/17 11:55:05 925] execute request:  HTTP/1.1
+[INFO][2021/01/17 11:55:05 956] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 11:55:05 956] execute request:  [parameters={}]
+[INFO][2021/01/17 11:55:06 440] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 11:55:06 440] response.getEntity()11:  HTTP/1.1 200 OK
+[INFO][2021/01/17 11:55:06 440] response.getEntity()11:  org.apache.http.impl.client.ClientParamsStack@1677d1
+[INFO][2021/01/17 11:55:06 440] exe url error
+[INFO][2021/01/17 11:55:06 440] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 12:27:54 149] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 12:27:54 149] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 12:27:54 149] execute request:  POST
+[INFO][2021/01/17 12:27:54 165] execute request:  HTTP/1.1
+[INFO][2021/01/17 12:27:54 212] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 12:27:54 212] execute request:  [parameters={}]
+[INFO][2021/01/17 12:27:54 836] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 12:27:54 836] response.getEntity()11:  HTTP/1.1 200 OK
+[INFO][2021/01/17 12:27:54 836] response.getEntity()11:  org.apache.http.impl.client.ClientParamsStack@1677d1
+[INFO][2021/01/17 12:27:54 836] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 12:27:54 836] exe url error
+[INFO][2021/01/17 12:27:54 851] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 12:59:06 619] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 12:59:06 619] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 12:59:06 619] execute request:  POST
+[INFO][2021/01/17 12:59:06 619] execute request:  HTTP/1.1
+[INFO][2021/01/17 12:59:06 650] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 12:59:06 650] execute request:  [parameters={}]
+[INFO][2021/01/17 12:59:07 352] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 12:59:07 352] response.getEntity()11:  HTTP/1.1 200 OK
+[INFO][2021/01/17 12:59:07 352] response.getEntity()11:  org.apache.http.impl.client.ClientParamsStack@1677d1
+[INFO][2021/01/17 12:59:07 352] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 12:59:07 352] current urlhttp://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 12:59:07 352] passser body error
+[INFO][2021/01/17 13:09:42 117] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:09:42 117] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 13:09:42 117] execute request:  POST
+[INFO][2021/01/17 13:09:42 148] execute request:  HTTP/1.1
+[INFO][2021/01/17 13:09:42 164] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 13:09:42 164] execute request:  [parameters={}]
+[INFO][2021/01/17 13:09:42 726] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 13:09:42 726] response.getEntity()11:  HTTP/1.1 200 OK
+[INFO][2021/01/17 13:09:42 726] response.getEntity()11:  org.apache.http.impl.client.ClientParamsStack@1677d1
+[INFO][2021/01/17 13:09:42 741] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 13:09:42 741] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:09:42 741] 200
+[INFO][2021/01/17 13:09:42 741] charSet:  UTF-8
+[INFO][2021/01/17 13:09:42 741] passser body error
+[INFO][2021/01/17 13:09:42 741] resultStr200null
+[INFO][2021/01/17 13:12:27 899] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:12:27 899] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 13:12:27 899] execute request:  POST
+[INFO][2021/01/17 13:12:27 914] execute request:  HTTP/1.1
+[INFO][2021/01/17 13:12:27 930] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 13:12:27 945] execute request:  [parameters={}]
+[INFO][2021/01/17 13:12:28 476] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 13:12:28 476] response.getEntity()11:  HTTP/1.1 200 OK
+[INFO][2021/01/17 13:12:28 476] response.getEntity()11:  org.apache.http.impl.client.ClientParamsStack@1677d1
+[INFO][2021/01/17 13:12:28 476] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 13:12:28 476] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:12:28 491] 200
+[INFO][2021/01/17 13:12:28 491] charSet:  UTF-8
+[INFO][2021/01/17 13:12:28 491] passser body error
+[INFO][2021/01/17 13:12:28 491] resultStr200:  null
+[INFO][2021/01/17 13:18:41 722] execute request:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:18:41 722] execute request:  [Lorg.apache.http.Header;@13e16fd
+[INFO][2021/01/17 13:18:41 722] execute request:  POST
+[INFO][2021/01/17 13:18:41 722] execute request:  HTTP/1.1
+[INFO][2021/01/17 13:18:41 753] execute request:  POST http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=%E7%94%B3%E4%B8%B0%E7%A1%95&serialNo=123654 HTTP/1.1
+[INFO][2021/01/17 13:18:41 753] execute request:  [parameters={}]
+[INFO][2021/01/17 13:18:42 315] response.getEntity()11:  org.apache.http.conn.BasicManagedEntity@e955a8
+[INFO][2021/01/17 13:18:42 331] response.getEntity()11:  HTTP/1.1 200 OK
+[INFO][2021/01/17 13:18:42 331] response.getEntity()11:  org.apache.http.impl.client.ClientParamsStack@1677d1
+[INFO][2021/01/17 13:18:42 331] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 13:18:42 331] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:18:42 331] 200
+[INFO][2021/01/17 13:18:42 331] charSet:  UTF-8
+[INFO][2021/01/17 13:18:42 331] passser body error
+[INFO][2021/01/17 13:18:42 331] resultStr200:  null
+[INFO][2021/01/17 13:30:45 641] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 13:30:45 641] exe url IOException error
+[INFO][2021/01/17 13:30:45 641] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 13:38:38 977] response.getEntity()3333:  
+[INFO][2021/01/17 13:38:38 977] exe url IOException error
+[INFO][2021/01/17 13:38:38 977] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 13:40:24 808] response.getEntity()3333:  
+[INFO][2021/01/17 13:40:24 808] response.getEntity()4444:  
+[INFO][2021/01/17 13:40:24 824] exe url IOException error
+[INFO][2021/01/17 13:40:24 824] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 13:41:41 186] response.getEntity()3333:  
+[INFO][2021/01/17 13:41:41 201] response.getEntity()44442323:  
+[INFO][2021/01/17 13:41:41 201] exe url IOException error
+[INFO][2021/01/17 13:41:41 201] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 13:42:55 411] response.getEntity()3333:  
+[INFO][2021/01/17 13:42:55 411] response.getEntity()44442323:  
+[INFO][2021/01/17 13:42:55 411] exe url IOException error
+[INFO][2021/01/17 13:42:55 411] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:118)
+	at org.example.keyword.commonTool.BaseCommonToolKeyword.postRequest(BaseCommonToolKeyword.java:85)
+	at org.example.keyword.commonTool.HttpPostRequestKeyword.execute(HttpPostRequestKeyword.java:34)
+	at org.example.sTest.myTest2.taskTest1(myTest2.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 13:44:41 491] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:44:41 491] 200
+[INFO][2021/01/17 13:44:41 491] response.getEntity()3333:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 13:44:41 491] charSet:  UTF-8
+[INFO][2021/01/17 13:44:41 491] passser body error
+[INFO][2021/01/17 13:44:41 491] resultStr200:  null
+[INFO][2021/01/17 13:45:27 948] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:45:27 948] charSet:  UTF-8
+[INFO][2021/01/17 13:45:27 948] {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 13:45:27 948] passser body error
+[INFO][2021/01/17 13:45:27 948] resultStr200:  null
+[INFO][2021/01/17 13:47:06 337] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 13:47:06 353] resultStr200:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 14:37:31 237] exe url error
+[INFO][2021/01/17 14:37:31 268] httpclient调用返回response为null
+java.lang.RuntimeException: httpclient调用返回response为null
+	at org.example.utils.httpClient.HttpclientUtil.sendSingleRequest(HttpclientUtil.java:33)
+	at org.example.keyword.commonTool.HttpGetRequestKeyword.getRequest(HttpGetRequestKeyword.java:108)
+	at org.example.keyword.commonTool.HttpGetRequestKeyword.execute(HttpGetRequestKeyword.java:23)
+	at org.example.sTest.myTest2.getTest1(myTest2.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 14:41:45 998] current url:  http://jshmgsdmfb.market.alicloudapi.com/shouji/query?shouji=13456755448
+[INFO][2021/01/17 14:41:46 23] resultStr200:  {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 14:41:46 29] {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 14:41:46 73] Illegal character in scheme name at index 0: {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+java.net.URISyntaxException: Illegal character in scheme name at index 0: {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.checkChar(URI.java:3031)
+	at java.net.URI$Parser.parse(URI.java:3047)
+	at java.net.URI.<init>(URI.java:588)
+	at org.example.keyword.commonTool.HttpGetRequestKeyword.execute(HttpGetRequestKeyword.java:37)
+	at org.example.sTest.myTest2.getTest1(myTest2.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO][2021/01/17 14:44:11 117] current url:  http://jshmgsdmfb.market.alicloudapi.com/shouji/query?shouji=13456755448
+[INFO][2021/01/17 14:44:11 125] resultStr200:  {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 14:44:11 125] {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 14:45:42 286] current url:  http://jshmgsdmfb.market.alicloudapi.com/shouji/query?shouji=13456755448
+[INFO][2021/01/17 14:45:42 291] resultStr200:  {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 14:45:42 293] {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 14:45:42 798] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 14:45:42 798] resultStr200:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
+[INFO][2021/01/17 15:01:10 506] current url:  http://jshmgsdmfb.market.alicloudapi.com/shouji/query?shouji=13456755448
+[INFO][2021/01/17 15:01:10 522] resultStr200:  {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 15:01:10 522] {"status":0,"msg":"ok","result":{"shouji":"13456755448","province":"浙江","city":"杭州","company":"中国移动","cardtype":"GSM","areacode":"0571"}}
+[INFO][2021/01/17 15:01:11 99] current url:  http://yaosu.market.alicloudapi.com/api/zmxy/zmxy_two/ali_two?certNo=411425198511125415&name=申丰硕&serialNo=123654
+[INFO][2021/01/17 15:01:11 99] resultStr200:  {"code":"000000","success":"true","message":"\u4e00\u81f4","serialNo":"123654"}
